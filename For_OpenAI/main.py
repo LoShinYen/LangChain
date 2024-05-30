@@ -10,7 +10,8 @@ import os
 # 配置參數
 directory_path = Config.DATA_PATH
 openai_api_key = Config.OPENAI_API_KEY
-persist_directory = "chroma_storage"
+project_dir = os.path.dirname(os.path.abspath(__file__))
+persist_directory = os.path.join(project_dir, "openai_chroma_storage")
 
 def _split_data(directory_path):
     all_texts = []

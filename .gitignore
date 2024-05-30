@@ -159,7 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-.python-version
 config.py
-chroma_storage/
 data/
+openai_chroma_storage/
+location_chroma_storage/
